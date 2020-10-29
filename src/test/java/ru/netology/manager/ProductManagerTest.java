@@ -98,15 +98,15 @@ class ProductManagerTest {
         assertArrayEquals(expected, actual);
     }
 
-    @Test
-    public void shouldRemoveById() {
-
-        repository.removeById(1);
-
-        Product[] actual = repository.getAll();
-        Product[] expected = new Product[] {second, third, fourth, fifth, sixth, seventh};
-
-        assertArrayEquals(expected, actual);
-    }
+//    @Test
+//    public void shouldRemoveById() {
+//
+//        repository.removeById(1);
+//
+//        Product[] actual = repository.getAll();
+//        Product[] expected = new Product[] {second, third, fourth, fifth, sixth, seventh};
+//
+//        assertArrayEquals(expected, actual);
+//    }
 
 }
