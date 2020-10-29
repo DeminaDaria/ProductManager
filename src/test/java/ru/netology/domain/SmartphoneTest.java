@@ -7,6 +7,7 @@ import static org.junit.jupiter.api.Assertions.*;
 class SmartphoneTest {
 
     Smartphone smartphone = new Smartphone(4, "P40 Pro", 54587, "Huawei");
+
     @Test
     public void shouldMatchByName() {
         String match = "P40 Pro";

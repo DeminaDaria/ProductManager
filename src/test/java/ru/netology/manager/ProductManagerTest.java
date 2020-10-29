@@ -38,7 +38,7 @@ class ProductManagerTest {
         String search = "Эмоции людей и собак";
 
         Product[] actual = manager.searchBy(search);
-        Product[] expected = new Product[] {sixth};
+        Product[] expected = new Product[]{sixth};
 
         assertArrayEquals(expected, actual);
     }
@@ -49,7 +49,7 @@ class ProductManagerTest {
         String search = "Карен Прайор";
 
         Product[] actual = manager.searchBy(search);
-        Product[] expected = new Product[] {seventh};
+        Product[] expected = new Product[]{seventh};
 
         assertArrayEquals(expected, actual);
     }
@@ -60,7 +60,7 @@ class ProductManagerTest {
         String search = "Патриция Б. МакКоннелл";
 
         Product[] actual = manager.searchBy(search);
-        Product[] expected = new Product[] {fifth, sixth};
+        Product[] expected = new Product[]{fifth, sixth};
 
         assertArrayEquals(expected, actual);
     }
@@ -71,7 +71,7 @@ class ProductManagerTest {
         String search = "Honor Play 9A";
 
         Product[] actual = manager.searchBy(search);
-        Product[] expected = new Product[] {third};
+        Product[] expected = new Product[]{third};
 
         assertArrayEquals(expected, actual);
     }
@@ -82,7 +82,7 @@ class ProductManagerTest {
         String search = "Huawei";
 
         Product[] actual = manager.searchBy(search);
-        Product[] expected = new Product[] {third, fourth};
+        Product[] expected = new Product[]{third, fourth};
 
         assertArrayEquals(expected, actual);
     }
@@ -93,7 +93,7 @@ class ProductManagerTest {
         String search = "LG";
 
         Product[] actual = manager.searchBy(search);
-        Product[] expected = new Product[] {first};
+        Product[] expected = new Product[]{first};
 
         assertArrayEquals(expected, actual);
     }
