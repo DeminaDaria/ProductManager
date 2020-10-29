@@ -19,4 +19,16 @@ public class Smartphone extends Product {
     public void setMaker(String maker) {
         this.maker = maker;
     }
+
+//    @Override
+//    public boolean matches(String search) {
+//        return super.matches(search) || maker.equals(search);
+//    }
+
+    public boolean matches(String search) {
+        if (super.matches(search)) {
+            return true;
+        }
+        return maker.equals(search);
+    }
 }
