@@ -1,5 +1,6 @@
 package ru.netology.manager;
 
+
 import ru.netology.domain.Book;
 import ru.netology.domain.Product;
 import ru.netology.domain.Smartphone;

@@ -4,7 +4,7 @@ public class Smartphone extends Product {
     private String maker;
 
     public Smartphone() {
-        super();
+
     }
 
     public Smartphone(int id, String name, int price, String maker) {
